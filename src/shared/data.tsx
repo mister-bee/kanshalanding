@@ -125,7 +125,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Kansha Ed builds software for the 21st century classroom
+      Kansha Ed builds software for the 21st century classroom.
     </>
   ),
   subtitle: (
@@ -134,7 +134,7 @@ export const heroData: HeroProps = {
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           TailNext
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '}
       It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
       optimization.
