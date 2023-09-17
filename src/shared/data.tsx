@@ -125,8 +125,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Kansha Ed builds software for the 21st century classroom
     </>
   ),
   subtitle: (
@@ -142,9 +141,9 @@ export const heroData: HeroProps = {
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Try PictureBooks',
+    href: 'https:picturebooks.ai',
+    // icon: IconDownload,
     targetBlank: true,
     btnType: 'primary',
   },
