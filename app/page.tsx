@@ -12,6 +12,7 @@ import FAQs2 from '~/components/widgets/FAQs2';
 import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
+
 import {
   callToActionData,
   content2Data,
@@ -22,6 +23,7 @@ import {
   pricingData,
   socialProofData,
 } from '~/shared/data';
+
 import Contact from '~/components/widgets/Contact';
 
 export const metadata: Metadata = {
@@ -38,7 +40,7 @@ export default function Page() {
       {/* <Content {...content2Data} /> */}
       {/* <Steps /> */}
       <Testimonial />
-      <FAQs2 {...faqsData2} />
+      {/* <FAQs2 {...faqsData2} /> */}
       {/* <Pricing {...pricingData} />
       <Team /> */}
       <Contact />

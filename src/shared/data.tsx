@@ -51,6 +51,7 @@ import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
+import classroom2 from '~/assets/images/classroom2.webp';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -125,23 +126,23 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Beech Tree Education: Software for the 21st century classroom.
+      BeechTree: Educational Software for the 21st century classroom.
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
+      {/* <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           TailNext
         </span>{' '}
         Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      </span>{' '} */}
+      Revolutionizing the 21st Century Classroom with Next-Gen Educational Software
     </>
   ),
+
   callToAction: {
-    text: 'Try PictureBooks',
+    text: 'Free PictureBooks Trial',
     href: 'https:picturebooks.ai',
     // icon: IconDownload,
     targetBlank: true,
@@ -152,8 +153,8 @@ export const heroData: HeroProps = {
     href: '/',
   },
   image: {
-    src: heroImg,
-    alt: 'Hero TailNext',
+    src: classroom2,
+    alt: 'classroom',
   },
 };
 
@@ -625,27 +626,27 @@ export const featuresData3: FeaturesProps = {
 // Content data
 export const contentData: ContentProps = {
   header: {
-    title: 'PictureBooks.ai',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
+    title: 'PictureBooks',
+    subtitle: 'Ignite Curiosity with AI-Generated, Customized Learning Experiences',
     highlight: 'THE LASTEST',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    'Step into the future of education with Picturebooks. Utilizing advanced AI technology, we generate content that adapts in real-time to the needs and interests of each student, revolutionizing the way young minds learn and grow.',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'AI-Generated Material:',
       description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+        "Our intelligent algorithms create dynamic, relevant content tailored to each student's unique learning profile.",
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Interactive Learning',
       description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+        'Deepen engagement through quizzes, lesson plans, and educator-designed reading guides that integrate seamlessly with our AI-generated content.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Multilingual Learning Materials',
       description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+        'Discover targeted content focusing on vocabulary development and comprehension questions, all available in 26 languages. Enhance learning across multiple linguistic backgrounds with our specialized materials.',
     },
   ],
   image: {
