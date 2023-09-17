@@ -125,7 +125,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Kansha Ed builds software for the 21st century classroom.
+      Beech Tree Education: Software for the 21st century classroom.
     </>
   ),
   subtitle: (
@@ -625,9 +625,9 @@ export const featuresData3: FeaturesProps = {
 // Content data
 export const contentData: ContentProps = {
   header: {
-    title: 'Aliquip definiebas ad est',
+    title: 'PictureBooks.ai',
     subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    highlight: 'Content',
+    highlight: 'THE LASTEST',
   },
   content:
     'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',

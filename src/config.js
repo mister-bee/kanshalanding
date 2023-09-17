@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'BeechTree',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://beechtree.ai',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'BeechTree: AI-Driven Educational Software Rooted in Real Classroom Experience',
+  description: 'Description: Using AI inspired by classroom experience, BeechTree delivers adaptive educational software that blends traditional teaching with modern tech for a personalized learning future.',
 };
