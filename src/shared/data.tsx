@@ -52,6 +52,7 @@ import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import classroom2 from '~/assets/images/classroom2.webp';
+import ai_kid1 from '~/assets/images/ai-kid.jpg';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -77,10 +78,10 @@ export const headerData: HeaderProps = {
           label: 'About us',
           href: '/about',
         },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
+        // {
+        //   label: 'Pricing',
+        //   href: '/pricing',
+        // },
         {
           label: 'Contact us',
           href: '/contact',
@@ -650,8 +651,8 @@ export const contentData: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
-    alt: 'Colorful Image',
+    src: ai_kid1,
+    alt: 'AI magical kid',
   },
   isReversed: false,
   isAfterContent: false,
