@@ -53,6 +53,10 @@ import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import classroom2 from '~/assets/images/classroom2.webp';
 import ai_kid1 from '~/assets/images/ai-kid.jpg';
+import person1woman from '~/assets/images/person1woman.png';
+import person2woman from '~/assets/images/person2woman.png';
+import person3man from '~/assets/images/person3man.png';
+
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -138,7 +142,7 @@ export const heroData: HeroProps = {
         </span>{' '}
         Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '} */}
-      Revolutionizing the 21st Century Classroom with Next-Gen Educational Software
+      Transforming the Modern Classroom Through Cutting-Edge Educational Software
     </>
   ),
 
@@ -628,11 +632,11 @@ export const featuresData3: FeaturesProps = {
 export const contentData: ContentProps = {
   header: {
     title: 'PictureBooks',
-    subtitle: 'Ignite Curiosity with AI-Generated, Customized Learning Experiences',
-    highlight: 'THE LASTEST',
+    subtitle: 'Ignite Curiosity with Personalized Stories to Experiences',
+    highlight: 'THE LASTEST RELEASE',
   },
   content:
-    'Step into the future of education with Picturebooks. Utilizing advanced AI technology, we generate content that adapts in real-time to the needs and interests of each student, revolutionizing the way young minds learn and grow.',
+    'PictureBook is a digital platform designed for teachers, parents, or anyone interested in leveraging artificial intelligence to craft personalized, illustrated stories for children. Starting with your initial prompt, the platform tailors each narrative to the specific reading level of the child and offers translations in over 25 languages. Every story is engineered to not only educate but also inspire, culminating in a happy ending and a positive message.',
   items: [
     {
       title: 'AI-Generated Material:',
@@ -838,46 +842,45 @@ export const teamData: TeamProps = {
 // Testimonial data
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'What our customers say about us',
+    title: 'What our users think',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      'Hear Directly from Educators, Parents, and Specialists Using PictureBook',
     // highlight: 'Testimonial',
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
-      occupation: 'Marketing Manager',
-      comment:
-        'Suspendisse mollis ante turpis, ut fermentum nulla finibus ac. Integer ut justo id dolor lobortis pharetra. Integer ultrices leo a nunc ullamcorper commodo. In id nulla et nibh pretium pretium non vel metus. Suspendisse dapibus quis lorem sit amet fermentum. Ut a dapibus justo. In faucibus molestie pretium. Cras eros orci, bibendum fringilla elit at, vehicula maximus eros. Aenean placerat aliquet mi, et pellentesque dolor gravida at.',
+      name: 'Emily Thompson',
+      occupation: 'Elementary School Teacher',
+      comment: "Using PictureBook in my classroom has been transformative. The personalized stories captivate my students and align perfectly with their individual reading levels. It's a game-changer for fostering both literacy and enthusiasm for reading.",
       image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: person2woman,
         alt: '',
       },
-      icon: IconBrandTwitter,
+      // icon: IconBrandTwitter,
       href: '#',
     },
     {
-      name: 'Silver Jordan',
-      occupation: 'Senior Marketer',
+      name: 'Alexandra Green',
+      occupation: 'Parent',
       comment:
-        'Mauris semper enim dolor, ac dictum sapien sollicitudin quis. Quisque id pharetra mi. Phasellus eu posuere lectus, vitae rhoncus velit. Nullam imperdiet purus quis dapibus vestibulum. Integer purus ex, hendrerit at elementum non, varius a nibh. Ut eget convallis mi. Morbi mattis, felis sit amet consectetur scelerisque, odio purus ornare sapien, in feugiat lorem tellus et magna. Pellentesque luctus dolor in ornare mattis.',
+        "As a parent, I've struggled to find engaging reading materials that also resonate with my child's interests. PictureBook has filled that gap beautifully. The happy endings and positive messages are just the icing on the cake.",
       image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: person1woman,
         alt: '',
       },
-      icon: IconBrandTwitter,
+      // icon: IconBrandTwitter,
       href: '#',
     },
     {
-      name: 'Kelsey Arden',
-      occupation: 'Co-Founder & CEO',
+      name: 'Michael Johnson',
+      occupation: 'Reading Specialist',
       comment:
-        'Sed malesuada rhoncus arcu, sit amet condimentum leo pharetra feugiat. In augue quam, venenatis nec dui in, auctor tempus libero. Aliquam tempus ex id metus viverra blandit. Proin varius venenatis tortor, a pellentesque enim malesuada a. Aliquam lectus magna, interdum eget odio non, consequat imperdiet ipsum.',
+        "PictureBook is an invaluable tool for my practice. The platform's use of AI to customize stories to specific reading levels is innovative and incredibly effective. It takes the guesswork out of matching children with suitable reading materials while also encouraging a love for storytelling.",
       image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: person3man,
         alt: '',
       },
-      icon: IconBrandTwitter,
+      // icon: IconBrandTwitter,
       href: '#',
     },
   ],
@@ -1088,23 +1091,23 @@ export const contactData: ContactProps = {
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    "Reach out to us for any inquiries, support, or feedback you may have. Our team is committed to assisting you every step of the way. Whether you're a parent, a teacher, or a reading specialist, we're eager to hear from you and help you make the most out of our products",
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['5836 Standish Av', 'Minneapoilis, MN 55414'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +1 (612) 424-4266', 'Mail: tailnext@gmail.com'],
       icon: IconPhoneCall,
-    },
-    {
-      title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
-      icon: IconClock,
-    },
+    }
+    // {
+    //   title: 'Working hours',
+    //   description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+    //   icon: IconClock,
+    // },
   ],
   form: {
     title: 'Ready to Get Started?',
@@ -1401,13 +1404,13 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
-      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
+      {/* <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span> */}
+      {/* Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
         {' '}
         onWidget
-      </a>{' '}
-      · All rights reserved.
+      </a>{' '} */}
+      BeechTree LLC (c)2023 -  All rights reserved.
     </div>
   ),
 };

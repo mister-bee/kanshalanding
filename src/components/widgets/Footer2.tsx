@@ -2,6 +2,16 @@ import { footerData2 } from '~/shared/data';
 
 const Footer2 = () => {
   const { links, columns, socials, footNote } = footerData2;
+  return <>
+    <br />
+
+    <br />
+    {footNote}
+
+    <br />
+
+  </>
+
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -38,7 +48,7 @@ const Footer2 = () => {
         </div>
       </div>
       <div className="text-muted py-6 text-sm text-gray-700 dark:text-slate-400 md:flex md:items-center md:justify-between md:py-8">
-        <ul className="mb-4 -ml-2 flex pl-2 md:order-1 md:mb-0">
+        {/* <ul className="mb-4 -ml-2 flex pl-2 md:order-1 md:mb-0">
           {links &&
             links.map(({ label, href }, index) => (
               <li key={`item-link-${index}`}>
@@ -52,7 +62,7 @@ const Footer2 = () => {
                 {links.length - 1 !== index && <span className="mr-1"> · </span>}
               </li>
             ))}
-        </ul>
+        </ul> */}
         {footNote}
       </div>
     </div>
