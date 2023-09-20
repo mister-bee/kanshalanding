@@ -147,14 +147,14 @@ export const heroData: HeroProps = {
   ),
 
   callToAction: {
-    text: 'Free PictureBooks Trial',
-    href: 'https:picturebooks.ai',
+    text: 'Software',
+    href: '/',
     // icon: IconDownload,
     targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Consulting',
     href: '/',
   },
   image: {
@@ -1087,11 +1087,11 @@ export const statsData: StatsProps = {
 export const contactData: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: 'Reach out to us for any inquiries, support, or feedback you may have.',
     highlight: 'Contact',
   },
   content:
-    "Reach out to us for any inquiries, support, or feedback you may have. Our team is committed to assisting you every step of the way. Whether you're a parent, a teacher, or a reading specialist, we're eager to hear from you and help you make the most out of our products",
+    "Our team is committed to assisting you every step of the way. Whether you're a  a teacher, adminstrator, or specialist, we're eager to hear from you and help you make the most out of our products",
   items: [
     {
       title: 'Our Address',
