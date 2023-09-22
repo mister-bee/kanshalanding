@@ -215,7 +215,7 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Fringilla fringilla fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Fringilla TEST2ringilla fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
     highlight: 'FAQS',
   },
   items: [
