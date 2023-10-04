@@ -39,11 +39,11 @@ export default function Page() {
       <Content {...contentData} />
       {/* <Content {...content2Data} /> */}
       {/* <Steps /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <FAQs2 {...faqsData2} /> */}
       {/* <Pricing {...pricingData} />
       <Team /> */}
-      <Contact />
+      {/* <Contact /> */}
       {/* <CallToAction2 {...callToActionData} /> */}
     </>
   );

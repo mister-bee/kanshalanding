@@ -115,7 +115,7 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Download',
+      text: 'Download!!',
       href: 'https://github.com/onwidget/tailnext',
       targetBlank: true,
       btnType: 'primary',
@@ -633,13 +633,13 @@ export const contentData: ContentProps = {
   header: {
     title: 'PictureBooks',
     subtitle: 'Ignite Curiosity with Personalized Stories to Experiences',
-    highlight: 'THE LASTEST RELEASE',
+    highlight: 'BETA v2.0',
   },
   content:
-    'PictureBook is a digital platform designed for teachers, parents, or anyone interested in leveraging artificial intelligence to craft personalized, illustrated stories for children. Starting with your initial prompt, the platform tailors each narrative to the specific reading level of the child and offers translations in over 25 languages. Every story is engineered to not only educate but also inspire, culminating in a happy ending and a positive message.',
+    'PictureBooks is a digital platform designed for teachers, parents, administrators, or anyone interested in leveraging artificial intelligence to craft personalized, illustrated stories for children. Starting with your initial prompt, the platform tailors each narrative to the specific reading level of the child and offers translations in over 28 languages. Every story is engineered to not only educate but also inspire, culminating in a happy ending and a positive message.',
   items: [
     {
-      title: 'AI-Generated Material:',
+      title: 'Safe AI-Generated Material:',
       description:
         "Our intelligent algorithms create dynamic, relevant content tailored to each student's unique learning profile.",
     },
@@ -651,7 +651,7 @@ export const contentData: ContentProps = {
     {
       title: 'Multilingual Learning Materials',
       description:
-        'Discover targeted content focusing on vocabulary development and comprehension questions, all available in 26 languages. Enhance learning across multiple linguistic backgrounds with our specialized materials.',
+        'Discover targeted content focusing on vocabulary development and comprehension questions, all available in 28 languages. Enhance learning across multiple linguistic backgrounds with our specialized materials.',
     },
   ],
   image: {
@@ -1100,7 +1100,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (612) 424-4266', 'Mail: tailnext@gmail.com'],
+      description: ['+1 (952) 424-4266', 'Mail: contact@beechtree.ai'],
       icon: IconPhoneCall,
     }
     // {
@@ -1110,7 +1110,7 @@ export const contactData: ContactProps = {
     // },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'We are ready to help',
     inputs: [
       {
         type: 'text',
@@ -1142,7 +1142,7 @@ export const contactData: ContactProps = {
 export const contact2Data: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: '',
     highlight: 'Contact',
   },
   content:
@@ -1167,7 +1167,7 @@ export const contact2Data: ContactProps = {
   form: {
     title: 'Ready to Get Started?',
     description:
-      'Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.',
+      '',
     inputs: [
       {
         type: 'text',
@@ -1193,16 +1193,19 @@ export const contact2Data: ContactProps = {
       label: 'What is the reason for your contact?',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'PictureBooks',
         },
         {
-          label: 'Technical help',
+          label: 'Reading Adventures',
         },
         {
-          label: 'Claims',
+          label: 'Kansha',
         },
         {
-          label: 'Others',
+          label: 'Consultation',
+        },
+        {
+          label: 'Other',
         },
       ],
     },
