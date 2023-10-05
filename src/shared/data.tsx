@@ -142,7 +142,7 @@ export const heroData: HeroProps = {
         </span>{' '}
         Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '} */}
-      Transforming the Modern Classroom Through Cutting-Edge Educational Software
+      Transforming Classrooms
     </>
   ),
 
@@ -632,8 +632,8 @@ export const featuresData3: FeaturesProps = {
 export const contentData: ContentProps = {
   header: {
     title: 'PictureBooks',
-    subtitle: 'Ignite Curiosity with Personalized Stories to Experiences',
-    highlight: 'BETA v2.0',
+    subtitle: 'Ignite Curiosity with Personalized Stories for Kids',
+    highlight: 'October 2023',
   },
   content:
     'PictureBooks is a digital platform designed for teachers, parents, administrators, or anyone interested in leveraging artificial intelligence to craft personalized, illustrated stories for children. Starting with your initial prompt, the platform tailors each narrative to the specific reading level of the child and offers translations in over 28 languages. Every story is engineered to not only educate but also inspire, culminating in a happy ending and a positive message.',
