@@ -131,7 +131,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      BeechTree: Educational Software for the 21st century classroom.
+      BeechTree: Education for the 21st century classroom.
     </>
   ),
   subtitle: (
@@ -142,7 +142,7 @@ export const heroData: HeroProps = {
         </span>{' '}
         Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '} */}
-      Transforming Classrooms
+      AI to Simplify and Inspire we the Humans
     </>
   ),
 
