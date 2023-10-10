@@ -113,14 +113,18 @@ export const headerData: HeaderProps = {
       href: '/contact',
     },
   ],
-  actions: [
-    {
-      text: 'Download!!',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
-      btnType: 'primary',
-    },
-  ],
+
+
+  // actions: [
+  //   {
+  //     text: 'Download!!',
+  //     href: 'https://github.com/onwidget/tailnext',
+  //     targetBlank: true,
+  //     btnType: 'primary',
+  //   },
+  // ]
+
+  //,
   isSticky: true,
   showToggleTheme: true,
   showRssFeed: false,
@@ -142,7 +146,7 @@ export const heroData: HeroProps = {
         </span>{' '}
         Common Sense Safe AI<em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '} */}
-      AI to Simplify and Inspire we the Humans
+      Simplify Enhance Inspire
     </>
   ),
 
