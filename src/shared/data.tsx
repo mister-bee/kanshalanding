@@ -152,14 +152,14 @@ export const heroData: HeroProps = {
 
   callToAction: {
     text: 'Software',
-    href: '/',
+    href: '/contact',
     // icon: IconDownload,
     targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
     text: 'Consulting',
-    href: '/',
+    href: '/contact',
   },
   image: {
     src: classroom2,
@@ -1169,41 +1169,44 @@ export const contact2Data: ContactProps = {
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: '',
     description:
       '',
     inputs: [
       {
         type: 'text',
-        label: 'First name',
+        label: '',
         name: 'name',
         autocomplete: 'given-name',
         placeholder: 'First name',
       },
       {
         type: 'text',
-        label: 'Last name',
+        label: '',
         name: 'lastName',
         placeholder: 'Last name',
       },
       {
         type: 'email',
-        label: 'Email address',
+        label: '',
         name: 'email',
         placeholder: 'Email address',
       },
     ],
     radioBtns: {
-      label: 'What is the reason for your contact?',
+      label: 'What are you interested in?',
       radios: [
         {
-          label: 'PictureBooks',
+          label: 'GPT Integration',
+        },
+        {
+          label: 'Picture Books',
         },
         {
           label: 'Reading Adventures',
         },
         {
-          label: 'Kansha',
+          label: 'Kansha ',
         },
         {
           label: 'Consultation',
@@ -1216,19 +1219,19 @@ export const contact2Data: ContactProps = {
     textarea: {
       cols: 30,
       rows: 5,
-      label: 'How can we help you?',
+      label: 'Leave any details here:',
       name: 'textarea',
       placeholder: 'Write your message...',
     },
     checkboxes: [
-      {
-        label: 'Have you read our privacy policy?',
-        value: '',
-      },
-      {
-        label: 'Do you want to receive monthly updates by email?',
-        value: '',
-      },
+      // {
+      //   label: 'Have you read our privacy policy?',
+      //   value: '',
+      // },
+      // {
+      //   label: 'Do you want to receive monthly updates by email?',
+      //   value: '',
+      // },
     ],
     btn: {
       title: 'Send Message',
