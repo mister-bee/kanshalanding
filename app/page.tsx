@@ -45,6 +45,14 @@ export default function Page() {
       <Team /> */}
       {/* <Contact /> */}
       {/* <CallToAction2 {...callToActionData} /> */}
+
+
+      {/* <form action="https://formspree.io/f/yourFormID" method="POST">
+   
+    <button type="submit">Send the Message</button> 
+    </form >*/}
+
+
     </>
   );
 }

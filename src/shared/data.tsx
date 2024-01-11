@@ -74,40 +74,40 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
   links: [
-    {
-      label: 'Pages',
-      icon: IconChevronDown,
-      links: [
-        {
-          label: 'About us',
-          href: '/about',
-        },
-        // {
-        //   label: 'Pricing',
-        //   href: '/pricing',
-        // },
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-      ],
-    },
-    {
-      label: 'Blog',
-      href: '/blog',
-    },
+    // {
+    //   label: 'Pages',
+    //   icon: IconChevronDown,
+    //   links: [
+    //     {
+    //       label: 'About us',
+    //       href: '/about',
+    //     },
+    //     // {
+    //     //   label: 'Pricing',
+    //     //   href: '/pricing',
+    //     // },
+    //     {
+    //       label: 'Contact us',
+    //       href: '/contact',
+    //     },
+    //     {
+    //       label: 'FAQs',
+    //       href: '/faqs',
+    //     },
+    //     {
+    //       label: 'Privacy Policy',
+    //       href: '/privacy',
+    //     },
+    //     {
+    //       label: 'Terms & Conditions',
+    //       href: '/terms',
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: 'Blog',
+    //   href: '/blog',
+    // },
     {
       label: 'Contact',
       href: '/contact',
@@ -561,34 +561,34 @@ export const featuresData: FeaturesProps = {
 // Feature2 data
 export const featuresData2: FeaturesProps = {
   header: {
-    title: 'Support Center',
-    subtitle: 'Looking for something in particular?',
+    // title: 'Support Center',
+    // subtitle: 'Looking for something in particular?',
   },
   items: [
-    {
-      title: 'Have a question?',
-      description: 'See our frequently asked questions',
-      icon: IconHelp,
-      link: {
-        href: '/faqs',
-      },
-    },
-    {
-      title: 'Chat with us',
-      description: 'Live chat with our support team',
-      icon: IconMessages,
-      link: {
-        href: '/',
-      },
-    },
-    {
-      title: 'Get help',
-      description: 'Speak to our team today',
-      icon: IconHeadset,
-      link: {
-        href: '/',
-      },
-    },
+    // {
+    //   title: 'Have a question?',
+    //   description: 'See our frequently asked questions',
+    //   icon: IconHelp,
+    //   link: {
+    //     href: '/faqs',
+    //   },
+    // },
+    // {
+    //   title: 'Chat with us',
+    //   description: 'Live chat with our support team',
+    //   icon: IconMessages,
+    //   link: {
+    //     href: '/',
+    //   },
+    // },
+    // {
+    //   title: 'Get help',
+    //   description: 'Speak to our team today',
+    //   icon: IconHeadset,
+    //   link: {
+    //     href: '/',
+    //   },
+    // },
   ],
 };
 
@@ -1234,7 +1234,7 @@ export const contact2Data: ContactProps = {
       // },
     ],
     btn: {
-      title: 'Send Message',
+      title: 'Send the Message', // HERE
       type: 'submit',
     },
   },
@@ -1414,13 +1414,10 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
-      {/* <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span> */}
-      {/* Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
-        {' '}
-        onWidget
-      </a>{' '} */}
-      BeechTree LLC (c)2023 -  All rights reserved.
+      <h6 style={{ fontSize: "1em", textAlign: "center" }}> BeechTree LLC (c)2024 </h6>
     </div>
+
+
+
   ),
 };

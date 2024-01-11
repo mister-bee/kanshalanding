@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      <Contact2 />
+      {/* <Contact2 /> */}
       <Features2 {...featuresData2} />
     </>
   );
