@@ -5,6 +5,7 @@ import { SITE } from '~/config.js';
 import Hero from '~/components/widgets/Hero';
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features3 from '~/components/widgets/Features3';
+import Features4 from '~/components/widgets/Features4';
 import Content from '~/components/widgets/Content';
 import Steps from '~/components/widgets/Steps';
 import Testimonial from '~/components/widgets/Testimonial';
@@ -34,9 +35,14 @@ export default function Page() {
   return (
     <>
       <Hero data={heroData} />
-      {/* <SocialProof {...socialProofData} /> */}
-      {/* <Features3 {...featuresData} /> */}
+
+      {/* <Features3 {...featuresData}  */}
+
+      <Features4 {...featuresData} />
       <Content {...contentData} />
+
+      {/* <h1>GPTS</h1> */}
+
       {/* <Content {...content2Data} /> */}
       {/* <Steps /> */}
       {/* <Testimonial /> */}
@@ -44,13 +50,16 @@ export default function Page() {
       {/* <Pricing {...pricingData} />
       <Team /> */}
       {/* <Contact /> */}
+
+
       {/* <CallToAction2 {...callToActionData} /> */}
-
-
       {/* <form action="https://formspree.io/f/yourFormID" method="POST">
-   
-    <button type="submit">Send the Message</button> 
-    </form >*/}
+        <button type="submit">Send the Message</button>
+      </form > */}
+
+
+      <SocialProof {...socialProofData} />
+
 
 
     </>

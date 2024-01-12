@@ -13,6 +13,7 @@ const Page = () => {
     <>
       {/* <Contact2 /> */}
       <Features2 {...featuresData2} />
+
     </>
   );
 };

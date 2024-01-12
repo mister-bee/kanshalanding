@@ -17,6 +17,7 @@ import {
   IconHelp,
   IconListCheck,
   IconMail,
+  IconAdjustmentsBolt,
   IconMapPin,
   IconMessages,
   IconPhoneCall,
@@ -487,28 +488,28 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        <span className="whitespace-nowrap"> Open AI GPTs</span>
       </>
     ),
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.',
+      "GPT models revolutionize education by offering personalized, interactive learning experiences and streamlining administrative tasks. Their ability to generate creative content and respond to student queries enhances critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site and can be integrated into school or classroom websites. Consultations are available for seamless integration.",
     highlight: 'Features',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Write With Me',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        "This innovative tutoring tool helps children enhance their writing abilities through engaging, personalized exercises, making the learning process both fun and effective. It adapts to each child's unique learning style, fostering creativity and confidence in their writing journey.",
       icon: IconBrandTailwind,
       link: {
         label: 'Discover now',
-        href: '/',
+        href: 'https://chat.openai.com/g/g-EnRM1fgBb-write-with-me',
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Math Amigo',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        "This cutting-edge tool revolutionizes writing education for kids, offering tailored exercises and interactive learning experiences to enhance their skills. It nurtures creativity and confidence in writing, adapting seamlessly to each child's individual learning style and pace.",
       icon: IconComponents,
       link: {
         label: 'Discover now',
@@ -516,7 +517,7 @@ export const featuresData: FeaturesProps = {
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Picture Books',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
       icon: IconListCheck,
@@ -526,7 +527,7 @@ export const featuresData: FeaturesProps = {
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Be a Spelling Bee',
       description:
         'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
       icon: IconRocket,
@@ -536,7 +537,7 @@ export const featuresData: FeaturesProps = {
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Classroom Songbook',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
       icon: IconArrowsRightLeft,
@@ -546,7 +547,27 @@ export const featuresData: FeaturesProps = {
       },
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'Poetry Pal',
+      description:
+        "This dynamic tool offers personalized tutoring in poetry for kids, blending engaging exercises with interactive learning to enhance their creative writing skills. It adapts to each child's unique style, fostering a love for poetry and nurturing their artistic expression.",
+      icon: IconBulb,
+      link: {
+        label: 'Discover now',
+        href: '/',
+      },
+    },
+    {
+      title: 'Peaceful Pete',
+      description:
+        'Explore a world of peaceful conflict resolution with this innovative tool, empowering students to reflect, understand, and solve disagreements in a harmonious and constructive way',
+      icon: IconAdjustmentsBolt,
+      link: {
+        label: 'Try it!',
+        href: 'https://chat.openai.com/g/g-0K1G7ZfCc-peaceful-solutions',
+      },
+    },
+    {
+      title: 'Classroom Environment',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
       icon: IconBulb,
@@ -700,7 +721,7 @@ export const content2Data: ContentProps = {
 
 // Steps data
 export const stepsData: StepsProps = {
-  title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+  title: 'GPTS',
   items: [
     {
       title: 'Step 1',
@@ -723,6 +744,7 @@ export const stepsData: StepsProps = {
     {
       title: 'Ready!',
       icon: IconCheck,
+
     },
   ],
   image: {
