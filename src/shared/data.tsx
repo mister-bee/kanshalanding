@@ -77,41 +77,20 @@ export const announcementData: AnnouncementProps = {
 
 // Header data
 export const headerData: HeaderProps = {
+
+  title: {
+    text: 'PictureBooks!',
+    link: '' // Add your desired link here
+  },
+  subtitle: {
+    text: 'Ignite !! Curiosity with Personalized Stories for Kids',
+    link: '/' // Add your desired link here
+  },
+  highlight: {
+    text: 'October 2023',
+    link: '/your-link-for-highlight' // Add your desired link here
+  },
   links: [
-    // {
-    //   label: 'Pages',
-    //   icon: IconChevronDown,
-    //   links: [
-    //     {
-    //       label: 'About us',
-    //       href: '/about',
-    //     },
-    //     // {
-    //     //   label: 'Pricing',
-    //     //   href: '/pricing',
-    //     // },
-    //     {
-    //       label: 'Contact us',
-    //       href: '/contact',
-    //     },
-    //     {
-    //       label: 'FAQs',
-    //       href: '/faqs',
-    //     },
-    //     {
-    //       label: 'Privacy Policy',
-    //       href: '/privacy',
-    //     },
-    //     {
-    //       label: 'Terms & Conditions',
-    //       href: '/terms',
-    //     },
-    //   ],
-    // },
-    // {
-    //   label: 'Blog',
-    //   href: '/blog',
-    // },
     {
       label: 'Contact',
       href: '/contact',
@@ -126,9 +105,9 @@ export const headerData: HeaderProps = {
   //     targetBlank: true,
   //     btnType: 'primary',
   //   },
-  // ]
+  // ],
 
-  //,
+
   isSticky: true,
   showToggleTheme: true,
   showRssFeed: false,
@@ -139,7 +118,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      BeechTree: Education for the 21st century classroom.
+      BeechTree: Education for the 21st century
     </>
   ),
   subtitle: (
@@ -495,7 +474,7 @@ export const featuresData: FeaturesProps = {
       </>
     ),
     subtitle:
-      "GPT models are revolutionizing education by providing personalized, interactive learning experiences for students and streamlining tasks for teachers and administrators. Their ability to generate creative content and respond to queries boosts critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site for subscribers, and  can also be integrated into school or classroom websites.",
+      "GPT models are revolutionizing education by providing personalized, interactive learning experiences for students and streamlining tasks for teachers and administrators. Their ability to generate creative content and respond to queries boosts critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site for subscribers, and  can also be integratedb externally into school or classroom websites.",
     highlight: 'Features',
   },
   items: [
@@ -698,10 +677,29 @@ export const featuresData3: FeaturesProps = {
 
 // Content data
 export const contentData: ContentProps = {
+
+  // header: {
+  //   title: {
+  //     text: 'PictureBooks',
+  //     link: 'https://picturebooks.ai'
+  //   },
+  //   subtitle: 'Ignite Curiosity with Personalized Stories for Kids',
+  //   highlight: 'January 2024',
+  // },
+
   header: {
-    title: 'PictureBooks',
-    subtitle: 'Ignite Curiosity with Personalized Stories for Kids',
-    highlight: 'October 2023',
+    title: {
+      text: 'PictureBooks',
+      link: 'https://picturebooks.ai'
+    },
+    subtitle: {
+      text: 'Ignite Curiosity with Personalized Stories for Kids',
+      link: 'https://picturebooks.ai'
+    },
+    highlight: {
+      text: 'January 2024',
+      link: 'https://picturebooks.ai'
+    },
   },
   content:
     'PictureBooks is a digital platform designed for teachers, parents, administrators, or anyone interested in leveraging artificial intelligence to craft personalized, illustrated stories for children. Starting with your initial prompt, the platform tailors each narrative to the specific reading level of the child and offers translations in over 28 languages. Every story is engineered to not only educate but also inspire, culminating in a happy ending and a positive message.',

@@ -187,14 +187,30 @@ interface FeaturesProps {
   items: Array<Item>;
 }
 
+
+
 interface ContentProps {
-  header?: Header;
+  header?: {
+    title?: {
+      text: string;
+      link: string;
+    };
+    subtitle?: {
+      text: string;
+      link: string;
+    };
+    highlight?: {
+      text: string;
+      link: string;
+    };
+  };
   content?: string;
   items?: Array<Item>;
   image?: Image;
   isReversed?: boolean;
   isAfterContent?: boolean;
 }
+
 
 interface StepsProps {
   title?: string;
@@ -253,6 +269,7 @@ interface FooterProps {
 }
 
 interface HeaderProps {
+
   links?: Array<MenuLink>;
   actions?: Array<CallToAction>;
   // actions?: Array<ActionLink>;
