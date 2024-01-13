@@ -5,22 +5,25 @@ import {
   IconBrandGithub,
   IconBrandInstagram,
   IconBrandLinkedin,
-  IconBrandTailwind,
+  IconPencil,
   IconBrandTwitter,
   IconBulb,
+  IconFlag,
+  IconFlower,
   IconCheck,
   IconChevronDown,
   IconClock,
-  IconComponents,
+  IconMath,
   IconDownload,
   IconHeadset,
   IconHelp,
-  IconListCheck,
+  IconSunHigh,
   IconMail,
-  IconAdjustmentsBolt,
+  IconPeace,
   IconMapPin,
   IconMessages,
   IconPhoneCall,
+  IconRulerMeasure,
   IconRocket,
   IconRss,
 } from '@tabler/icons-react';
@@ -492,90 +495,130 @@ export const featuresData: FeaturesProps = {
       </>
     ),
     subtitle:
-      "GPT models revolutionize education by offering personalized, interactive learning experiences and streamlining administrative tasks. Their ability to generate creative content and respond to student queries enhances critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site and can be integrated into school or classroom websites. Consultations are available for seamless integration.",
+      "GPT models are revolutionizing education by providing personalized, interactive learning experiences for students and streamlining tasks for teachers and administrators. Their ability to generate creative content and respond to queries boosts critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site for subscribers, and  can also be integrated into school or classroom websites.",
     highlight: 'Features',
   },
   items: [
     {
+      title: 'Peaceful Pete',
+      description:
+        'Fosters a culture of empathy and understanding, equipping students with the tools to thoughtfully navigate and resolve conflicts, leading to more harmonious interactions.',
+      icon: IconPeace,
+      link: {
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-0K1G7ZfCc-peaceful-solutions',
+      },
+    },
+    {
       title: 'Write With Me',
       description:
-        "This innovative tutoring tool helps children enhance their writing abilities through engaging, personalized exercises, making the learning process both fun and effective. It adapts to each child's unique learning style, fostering creativity and confidence in their writing journey.",
-      icon: IconBrandTailwind,
+        "Embraces the challenge of finding authentic inspiration in the age of AI guiding students step by step in discovering their unique voice and igniting their writing creativity.",
+      icon: IconPencil,
       link: {
-        label: 'Discover now',
+        label: 'gpt',
         href: 'https://chat.openai.com/g/g-EnRM1fgBb-write-with-me',
       },
     },
     {
       title: 'Math Amigo',
       description:
-        "This cutting-edge tool revolutionizes writing education for kids, offering tailored exercises and interactive learning experiences to enhance their skills. It nurtures creativity and confidence in writing, adapting seamlessly to each child's individual learning style and pace.",
-      icon: IconComponents,
+        "Elevates the math learning experience into an absorbing quest, guiding students to not just find solutions, but to develop a deep-seated understanding of the process.",
+      icon: IconMath,
       link: {
-        label: 'Discover now',
-        href: '/',
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-Tl9mvqtIS-math-amigo',
       },
     },
     {
-      title: 'Picture Books',
+      title: 'Terrific Scientific Method',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconListCheck,
+        'Discover the wonders of science by engaging in a step-by-step journey that guides students in creating and executing projects grounded in the fundamental principles of the scientific process.',
+      icon: IconRulerMeasure,
       link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Be a Spelling Bee',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Classroom Songbook',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
-      link: {
-        label: 'Discover now',
-        href: '/',
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-Vdb7S1Bj5-terrific-scientific-method',
       },
     },
     {
       title: 'Poetry Pal',
       description:
-        "This dynamic tool offers personalized tutoring in poetry for kids, blending engaging exercises with interactive learning to enhance their creative writing skills. It adapts to each child's unique style, fostering a love for poetry and nurturing their artistic expression.",
+        "Enriches the journey of creative writing with engaging and interactive exercises,  nurturing the student's artistic expression, blossoming their ability to create art with words.",
+      icon: IconFlower,
+      link: {
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-1z3Qt6ThS-poetry-pal',
+      },
+    },
+
+    {
+      title: 'Story Launchpad',
+      description:
+        "Elevates and refines students' writing, guiding them through a creative journey that culminates in their stories being vividly illustrated, turning written words into visual artistry..",
+      icon: IconRocket,
+      link: {
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-fBCrzYi16-story-launchpad',
+      },
+    },
+
+
+
+    {
+      title: 'Classroom Democracy',
+      description:
+        'Transforms the classroom into an inclusive, democratic space, creating a participatory learning environment, nurturing mutual respect and collective growth',
+      icon: IconFlag,
+      link: {
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-hWsbtiL6L-classroom-democracy',
+      },
+    },
+
+    {
+      title: 'ELL Well',
+      description:
+        'Seamlessly adjusts text to align with English Language Learner levels, providing a tailored, accessible, and impactful educational experience for every learner.',
       icon: IconBulb,
       link: {
-        label: 'Discover now',
-        href: '/',
+        label: 'gpt',
+        href: 'https://chat.openai.com/g/g-DlVJ5SWWq-ell-well',
       },
     },
-    {
-      title: 'Peaceful Pete',
-      description:
-        'Explore a world of peaceful conflict resolution with this innovative tool, empowering students to reflect, understand, and solve disagreements in a harmonious and constructive way',
-      icon: IconAdjustmentsBolt,
-      link: {
-        label: 'Try it!',
-        href: 'https://chat.openai.com/g/g-0K1G7ZfCc-peaceful-solutions',
-      },
-    },
-    {
-      title: 'Classroom Environment',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconBulb,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
+
+
+    // {
+    //   title: 'Bea the Spelling Bee',
+    //   description:
+    //     '.',
+    //   icon: IconRocket,
+    //   link: {
+    //     label: 'gpt',
+    //     href: '/',
+    //   },
+    // },
+
+    // {
+    //   title: 'Classroom Songbook',
+    //   description:
+    //     '',
+    //   icon: IconArrowsRightLeft,
+    //   link: {
+    //     label: 'gpt',
+    //     href: '/',
+    //   },
+    // },
+    // {
+    //   title: 'BeSO',
+    //   description:
+    //     '',
+    //   icon: IconArrowsRightLeft,
+    //   link: {
+    //     label: 'gpt',
+    //     href: '/',
+    //   },
+    // },
+
+
   ],
 };
 
@@ -622,17 +665,17 @@ export const featuresData3: FeaturesProps = {
     {
       title: 'Next.Js + Tailwind CSS Integration',
       description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      icon: IconPencil,
     },
     {
       title: 'Ready-to-use Components',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      icon: IconMath,
     },
     {
       title: 'Best Practices',
       description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      icon: IconSunHigh,
     },
     {
       title: 'Excellent Page Speed',
