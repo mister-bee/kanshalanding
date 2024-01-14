@@ -474,7 +474,7 @@ export const featuresData: FeaturesProps = {
       </>
     ),
     subtitle:
-      "GPT models are revolutionizing education by providing personalized, interactive learning experiences for students and streamlining tasks for teachers and administrators. Their ability to generate creative content and respond to queries boosts critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site for subscribers, and  can also be integratedb externally into school or classroom websites.",
+      "GPT models are revolutionizing education by providing personalized, interactive learning experiences for students and streamlining tasks for teachers and administrators. Their ability to generate creative content and respond to queries boosts critical thinking and engagement in the classroom. These resources are available for free on OpenAI's site for subscribers, and can also be integrated externally into school or classroom websites.",
     highlight: 'Features',
   },
   items: [
