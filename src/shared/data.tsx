@@ -78,18 +78,18 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
 
-  title: {
-    text: 'PictureBooks!',
-    link: '' // Add your desired link here
-  },
-  subtitle: {
-    text: 'Ignite !! Curiosity with Personalized Stories for Kids',
-    link: '/' // Add your desired link here
-  },
-  highlight: {
-    text: 'October 2023',
-    link: '/your-link-for-highlight' // Add your desired link here
-  },
+  // title: {
+  //   text: 'PictureBooks!',
+  //   link: '' // Add your desired link here
+  // },
+  // subtitle: {
+  //   text: 'Ignite !! Curiosity with Personalized Stories for Kids',
+  //   link: '/' // Add your desired link here
+  // },
+  // highlight: {
+  //   text: 'October 2023',
+  //   link: '/your-link-for-highlight' // Add your desired link here
+  // },
   links: [
     {
       label: 'Contact',
