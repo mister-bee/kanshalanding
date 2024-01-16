@@ -7,6 +7,8 @@ import Header from '~/components/widgets/Header';
 import Announcement from '~/components/widgets/Announcement';
 import Footer2 from '~/components/widgets/Footer2';
 
+import BeechTreeBot from './bots/BeechTreeBot'
+
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
 
@@ -37,7 +39,9 @@ export default function RootLayout({ children }: LayoutProps) {
 
           <Header />
           <main>{children}</main>
+
           <Footer2 />
+          <BeechTreeBot />
         </Providers>
       </body>
     </html>

@@ -58,7 +58,7 @@ export default function Page() {
       </form > */}
 
 
-      <SocialProof {...socialProofData} />
+      {/* <SocialProof {...socialProofData} /> */}
 
 
 
