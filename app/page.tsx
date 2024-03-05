@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { SITE } from '~/config.js';
 
 import Hero from '~/components/widgets/Hero';
-import SocialProof from '../src/components/widgets/SocialProof';
-import Features3 from '~/components/widgets/Features3';
+// import SocialProof from '../src/components/widgets/SocialProof';
+// import Features3 from '~/components/widgets/Features3';
 import Features4 from '~/components/widgets/Features4';
 import Content from '~/components/widgets/Content';
 // import Steps from '~/components/widgets/Steps';
