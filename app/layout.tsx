@@ -41,7 +41,7 @@ export default function RootLayout({ children }: LayoutProps) {
           <main>{children}</main>
 
           <Footer2 />
-          <BeechTreeBot />
+          {/* <BeechTreeBot /> */}
         </Providers>
       </body>
     </html>
