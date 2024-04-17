@@ -2,15 +2,9 @@
 
 import { IconCheck, IconChevronDown, IconChevronUp } from '@tabler/icons-react';
 import { useEffect, useState } from 'react';
-import { Dropdown as DropdownType, Tab } from '~/shared/types'; // Renamed import
+import { Dropdown, Tab } from '~/shared/types';
 
-const Dropdown = ({
-  options,
-  activeTab,
-  onActiveTabSelected,
-  iconUp,
-  iconDown,
-}: DropdownType) => { // Use the renamed type here
+const Dropdown = ({ options, activeTab, onActiveTabSelected, iconUp, iconDown }: Dropdown) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
   const [selectedOption, setSelectedOption] = useState<string>(options[activeTab].link?.label as string);
 
@@ -21,18 +15,20 @@ const Dropdown = ({
 
   const onOptionSelected = (option: Tab, index: number) => {
     setSelectedOption(option.link?.label as string);
+
+    // Sends the value to the parent component
     onActiveTabSelected(index);
   };
 
   useEffect(() => {
     const handler = () => setIsDropdownOpen(false);
+
     window.addEventListener('click', handler);
+
     return () => {
       window.removeEventListener('click', handler);
     };
   });
-
-
 
   return (
     <div className="relative mt-4 rounded-md border border-gray-400 text-left">
@@ -56,8 +52,9 @@ const Dropdown = ({
             <div
               key={`option-${index}`}
               onClick={() => onOptionSelected(option, index)}
-              className={`flex cursor-pointer items-center bg-white p-3 text-lg dark:bg-slate-900 ${activeTab !== index ? 'pl-10' : 'text-primary-600 dark:text-primary-200'
-                }`}
+              className={`flex cursor-pointer items-center bg-white p-3 text-lg dark:bg-slate-900 ${
+                activeTab !== index ? 'pl-10' : 'text-primary-600 dark:text-primary-200'
+              }`}
             >
               {activeTab === index && <IconCheck className="mr-2 h-5 w-5" />} {option.link?.label}
             </div>
